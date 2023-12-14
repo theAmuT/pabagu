@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게뜨 메인페이지</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="main.css">
+    <style>
+        #section ul.shop_con{
+            width: 900px; margin: 0 auto;
+            /* background-color: antiquewhite; */
+        }
+        #section .shop_con:after{
+            content:""; display: block; clear:both;
+        }
+        #section .shop_con>li{
+            float:left;
+            width: 280px; height: 350px;
+            border:3px solid gray; border-radius: 20px;
+            box-sizing: border-box; margin: 10px;
+            transition: all 0.3s;
+        }
+        #section .shop_con>li:hover{
+            border:10px solid transparent;
+            background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+            linear-gradient(45deg, rgb(35, 225, 215), rgb(114, 38, 245));
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="inner_header">
+            <ul class="gnb">
+                <li><a href="#">파바의 약속</a></li>
+                <li><a href="#">파바 매거진</a></li>
+                <li><a href="#">파바 스토리</a></li>
+                <li><a href="#">상품안내</a></li>
+            </ul>
+            <h1 class="brand">PARIS BAGUETTE</h1>
+            <ul class="info">
+                <li><a href="#">매장 정보</a></li>
+                <li><a href="#">주문 정보</a></li>
+                <li><a href="#">프로모션</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="section">
+        <div class="wrap">
+            <div class="box00"></div>
+        </div>
+        <ul class="shop_con">
+            <li>
+
+            </li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="quick_reservation">
+            <h3>빠른 예약</h3>
+            <div class="quick_bar">
+                <label for="store">매장</label>
+                <input type="text" id="store" placeholder="매장명을 입력해 주세요.">
+                <span></span>
+            </div>
+            <div class="reser_btn">예약하기</div>
+        </div>
+        <div class="franchise">
+            <div class="more btn1">
+                <a href="#">창업안내 바로가기</a>
+            </div>
+            <div class="more btn2">
+                <a href="#">가맹상담 신청</a>
+            </div>
+        </div>
+
+        <div class="online_shop">
+            <h2 style="text-align: center; font-size: 35pt;">Online Shop</h2>
+            <ul>
+                <li>
+                    <div class="cont1">
+                        <div class="cont_bg1"></div>
+                        <h3 class="cont_name">스마일 리걸 노트</h3>
+                        <p class="amount">6,000원</p>
+                    </div>
+                    <p class="cont_cart">담기</p>
+                </li>
+                <li>
+                    <div class="cont2">
+                        <img src="" alt="상품2">
+                        <h3 class="cont_name"></h3>
+                        <p class="amount"></p>
+                    </div>
+                    <p class="cont_cart">담기</p>
+                </li>
+                <li>
+                    <div class="cont3">
+                        <img src="" alt="상품3">
+                        <h3 class="cont_name"></h3>
+                        <p class="amount"></p>
+                    </div>
+                    <p class="cont_cart">담기</p>
+                </li>
+                <li>
+                    <div class="cont4">
+                        <img src="" alt="상품4">
+                        <h3 class="cont_name"></h3>
+                        <p class="amount"></p>
+                    </div>
+                    <p class="cont_cart">담기</p>
+                </li>
+            </ul>
+        </div>
+        <div class="event">
+            <h2 style="text-align: center; font-size: 35pt;">---// Event //---</h2>
+            <ul class="eve_cont">
+                <li><div>노티드x최고심 콜라보 도넛 출시!</div></li>
+                <li><div>노티드 도넛 6+1 이벤트</div></li>
+                <li><div>노티드스토어 신규가입 이벤트</div></li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="magazine">
+            <div class="m_title">
+                <h2>PB MAGAZINE</h2>
+                <h5>SHOW MORE</h5>
+            </div>
+            <ul class="maga_img">
+                <li><img src="images/PB-MAGAZINE01.jpg" alt="maga01"></li>
+                <li><img src="images/600x750_02.png" alt="maga02"></li>
+                <li><img src="images/600x750_03.png" alt="maga03"></li>
+            </ul>
+        </div>
+        <div class="promotion">
+            <div class="title_line">
+                <h2>
+                    PROMOTION
+
+                </h2>
+<!--                <h5>SHOW MORE</h5>-->
+            </div>
+            <ul>
+                <li>
+                    <div><img src="images/small01.jpg" alt="썸네일01"></div>
+                    <p class="sm1">현대카드 구독서비스 파리바게뜨팩 100% 캐시백!</p>
+                    <p class="more">read more</p>
+                </li>
+                <li>
+                    <div><img src="images/small02.jpg" alt="썸네일01"></div>
+                    <p class="sm2">제복입은 영웅의 달</p>
+                    <p class="more">read more</p>
+                </li>
+                <li>
+                    <div><img src="images/small03.jpg" alt="썸네일01"></div>
+                    <p class="sm3">PARIS BAGUETTE X PARIS SAINT-GERMAIN 공식 파트너쉽 체결</p>
+                    <p class="more">read more</p>
+                </li>
+                <li>
+                    <div><img src="images/small04.jpg" alt="썸네일01"></div>
+                    <p class="sm4">너만의 하루를 파바 파리의 아침</p>
+                    <p class="more">read more</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
